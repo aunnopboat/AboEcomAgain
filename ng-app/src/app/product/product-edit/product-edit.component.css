@@ -1,0 +1,56 @@
+
+img {
+  height:10rem;
+
+  object-fit: cover;
+}
+
+div.panel panel-primary col-lg-12{
+border-color:#000000;
+color : #000000;
+}
+
+img{
+
+    width: fit;
+}
+p.panel-title{
+font-size: 20px;
+}
+p.a{
+text-align: center;
+padding: 2px 0;
+}
+div.buttonEdit{
+position:absolute;
+right:20px;
+top:10px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+
+    color: white;
+    padding: 4px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+background-color: #000000;
+color : #696969;
+border-radius: 2px;
+
+border: 2px solid #696969;
+
+
+}
+.button1:hover {
+    background-color: #FFFFFF;
+    color: 696969;
+    }

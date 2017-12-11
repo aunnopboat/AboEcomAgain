@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: ProductDataSource,inMemoryDB
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+server:
+  baseUrl: http://localhost:8080/
+  imageUrl: images/
+  imageServerDir : C:/images/lab07/
+---
+spring:
+  profiles: inMemoryDB
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=- 1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+---
+spring:
+  profiles: local
+server:
+  baseUrl: http://localhost:1000/
+---

@@ -1,0 +1,171 @@
+
+
+		div.back{
+			left: 0px;
+		}
+		div.holder_wrap_img{
+			position:absolute;
+			top:0px;
+			left:0px;
+			z-index:100;
+
+
+
+		}
+
+
+		div.top{
+			position:absolute;
+			top:0px;
+			left:0px;
+			z-index:100;
+
+		}
+
+
+		div.Linetop{
+
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+    		opacity: 0.5;
+   			filter: alpha(opacity=40); /* For IE8 and earlier */
+		}
+
+
+		div.container {
+
+		    position: relative;
+		    top: 100px;
+
+
+
+
+		}
+		div.container1{
+
+			background-color: #000000;
+			position: relative;
+			position: absolute;
+		    top: 0px;
+		    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.19);
+
+		    font-size: 18px;
+		    color: #FFFFFF;
+		    opacity: 0.6;
+   			filter: alpha(opacity=40);
+   			overflow: auto;
+		}
+		div.head{
+
+
+
+
+		}
+
+
+
+		div.button {
+			border-radius: 1px;
+		    margin-left: 20px;
+
+
+
+		}
+		.button1{
+			background-color: #696969; /* Green */
+	    	border: none;
+
+	    	width: 255px;
+
+
+    		color: #FFFFFF;
+    		border: 2px solid #696969;
+    		box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.19);
+    		opacity: 1.0;
+   			filter: alpha(opacity=40);
+
+		}
+		.button2{
+			float: left;
+    		border: 1px solid green;
+			 position: absolute;
+			 right: 0px;
+			 font-size: 18px;
+			 width: 100px;
+			 height: 55px;
+			 background-color: #000000;
+			 border-color: #000000;
+			 box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.19);
+			 color: #FFFFFF;
+		}
+
+		input{
+			filter: alpha(opacity=40);
+    		padding: 5px 40px;
+    		text-align: left;
+
+		}
+
+
+		div.bg{
+
+
+
+
+		}
+
+
+
+		p.Welcome{
+
+
+			font-size: 50px;
+			color: #696969;
+			font-family: Agency FB;
+
+		}
+
+		div.box1{
+
+
+			margin-top: 10px;
+			opacity: 0.6;
+   			filter: alpha(opacity=40);
+   			color: #696969;
+
+
+
+		}
+		div.box2{
+
+
+			margin-top: 10px;
+			opacity: 0.6;
+   			filter: alpha(opacity=40);
+   			color: #696969;
+
+
+
+
+
+		}
+		div.Rem{
+
+
+   			color: #696969;
+		}
+		div.magin{
+			position: absolute;
+		    left: 0;
+
+		    width: 100%;
+		    text-align: center;
+		    font-size: 18px;
+
+		}
+
+
+
